@@ -1,0 +1,6 @@
+node_modules/
+vendor_frames/
+lib
+.DS_store
+dist
+out
