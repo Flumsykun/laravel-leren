@@ -19,7 +19,6 @@
                         {{ __('Chirps') }}
                     </x-nav-link>
                 </div>
-
             </div>
 
             <!-- Settings Dropdown -->
@@ -74,9 +73,6 @@
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('chirps.index')" :active="request()->routeIs('chirps.index')">
-                {{ __('Chirps') }}
-            </x-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
@@ -100,6 +96,7 @@
                                         this.closest('form').submit();">
                         {{ __('Log Out') }}
                     </x-responsive-nav-link>
+
                 </form>
             </div>
         </div>
