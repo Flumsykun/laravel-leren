@@ -21,7 +21,7 @@ class ChirpPolicy
      */
     public function view(User $user, Chirp $chirp): bool
     {
-        return $chirp->user()->is($user);
+        //
     }
 
     /**
@@ -37,7 +37,7 @@ class ChirpPolicy
      */
     public function update(User $user, Chirp $chirp): bool
     {
-        //
+        return $chirp->user()->is($user);
     }
 
     /**
