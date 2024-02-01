@@ -21,7 +21,7 @@ class ChirpPolicy
      */
     public function view(User $user, Chirp $chirp): bool
     {
-        //
+
     }
 
     /**
